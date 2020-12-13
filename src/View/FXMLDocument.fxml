@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<BorderPane id="BorderPane" prefHeight="400.0" prefWidth="740.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2" fx:controller="Controller.FXMLDocumentController">
+  <center>
+    <GridPane>
+      <children>
+        <Button mnemonicParsing="false" onAction="#buttonAction0" prefHeight="111.0" prefWidth="264.0" text="Ricerca per nome" GridPane.columnIndex="0" GridPane.halignment="CENTER" GridPane.rowIndex="0" />
+        <Button mnemonicParsing="false" onAction="#buttonAction1" prefHeight="111.0" prefWidth="264.0" text="Ricerca per numero" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="0" />
+        <Button mnemonicParsing="false" onAction="#buttonAction2" prefHeight="111.0" prefWidth="264.0" text="Aggiungi un contatto" GridPane.columnIndex="0" GridPane.halignment="CENTER" GridPane.rowIndex="1" />
+        <Button mnemonicParsing="false" onAction="#buttonAction3" prefHeight="111.0" prefWidth="264.0" text="Modifica un contatto" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="1" />
+      </children>
+      <columnConstraints>
+        <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+        <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+      </columnConstraints>
+      <rowConstraints>
+        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+      </rowConstraints>
+    </GridPane>
+  </center>
+  <top>
+    <Text onMouseClicked="#buttonAction4" strokeType="OUTSIDE" strokeWidth="0.0" text="Rubrica UDP" textAlignment="CENTER" BorderPane.alignment="CENTER">
+      <font>
+        <Font size="48.0" />
+      </font>
+      <BorderPane.margin>
+        <Insets top="10.0" />
+      </BorderPane.margin>
+    </Text>
+  </top>
+</BorderPane>
